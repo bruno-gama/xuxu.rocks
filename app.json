@@ -1,0 +1,8 @@
+{
+  "name": "Xuxu.Rocks!",
+  "description": "Business card style website, now done with node and markdown.",
+  "repository": "https://bruno_gama@bitbucket.org/bruno_gama/xuxu-rocks-node.git",
+  "logo": "",
+  "keywords": ["node", "express", "static", "markdown"],
+  "image": ""
+}
