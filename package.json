@@ -1,0 +1,24 @@
+{
+  "name": "xuxu.rocks-node",
+  "version": "1.0.0",
+  "description": "Node.js version for my business-card-site",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bruno_gama@bitbucket.org/bruno_gama/xuxu-rocks-node.git"
+  },
+  "author": "Bruno Gama",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/bruno_gama/xuxu-rocks-node#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}

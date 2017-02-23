@@ -1,0 +1,64 @@
+/*
+	*********** XUXU.ROCKS SCSS STYLEZ ***********
+
+	This file here is just aggregating all the other filez
+
+	@Author:  	Bruno Gama
+	@Twitter: 	@xuxu_blz
+	@Github:	https://github.com/bruno-gama
+
+	Trying my best to follow something like this
+	http://thesassway.com/advanced/modular-css-naming-conventions
+*/
+
+
+/*
+	--- HTML5 BOILERPLATE BASE ---
+	This  project started with the html5 boilerplate,
+	therefore we inherit a few styles + normalize
+
+	@src: http://www.initializr.com
+*/
+
+	@import 'boilerplate/normalize';
+	@import 'boilerplate/boilerplate';
+
+
+/*
+	--- MIXINS AND FUNCTIONS ---
+	Some of them MAY be stolen from the Bones WordPress
+	development theme
+
+	@src: http://themble.com/bones
+*/
+	@import 'mixins/mixins';
+	@import 'mixins/functions';
+	@import 'mixins/variables';
+
+/*
+	--- PARTIALS ---
+	Like typography, @font-face, color variables, icons
+	blablabla and such
+*/
+	@import 'partials/typography';
+
+
+/*
+	--- BREAKPOINT 1: ---
+	--- BASE STYLES   ---
+	Base (as in mobile-first-base) styles
+*/
+	@import 'breakpoints/base';
+
+
+/* --- BREAKPOINT 2: ---
+   ---- 768px +      ---
+   Any screen with more than 768px width will show these
+*/
+
+@media only screen and (min-width: 768px) {
+
+	// styles in 768up.scss
+	@import 'breakpoints/768up';
+
+} // end of media query
