@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const marked = require('marked');
+const mdMeta = require('./../helpers/mdMeta.js');
 
 
 module.exports.get = function(path = '/', complete) {
@@ -14,16 +15,18 @@ module.exports.get = function(path = '/', complete) {
             if(err) {
                 complete({
                     status: 0,
-                    title: 'Nothing Here',
                     content: '404',
-                    meta: {title: 'Nothing here'}
+                    meta: {}
                 });
             }
             else{
+                let content = marked(mdMeta.stripComments(data));
+                let meta = mdMeta.getMdMeta(data);
+
                 complete({
                     status: 1,
-                    title: 'YES, HE DOES!!',
-                    content: marked(data),
+                    content,
+                    meta
                 });
             }
         });
@@ -35,15 +38,18 @@ module.exports.get = function(path = '/', complete) {
             if(err) {
                 complete({
                     status: 0,
-                    title: 'Nothing Here',
                     content: '404',
+                    meta: {}
                 });
             }
             else {
+                let content = marked(mdMeta.stripComments(data));
+                let meta = mdMeta.getMdMeta(data);
+
                 complete({
                     status: 0,
-                    title: 'Nothing Here',
-                    content: marked(data),
+                    content,
+                    meta
                 });
             }
         });
