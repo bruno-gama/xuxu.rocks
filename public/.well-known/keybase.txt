@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/xuxublz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://xuxu.rocks
+  * I am xuxublz (https://keybase.io/xuxublz) on keybase.
+  * I have a public key with fingerprint 4FCB 717A E98F B56E EBC7  624E F102 AF63 E2CD 7B37
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101868309653ceaab721d8deebc092228866b8c6efdf05e8fb0e016ec615b8313c50a",
+            "fingerprint": "4fcb717ae98fb56eebc7624ef102af63e2cd7b37",
+            "host": "keybase.io",
+            "key_id": "f102af63e2cd7b37",
+            "kid": "0101868309653ceaab721d8deebc092228866b8c6efdf05e8fb0e016ec615b8313c50a",
+            "uid": "837c029706651a72d28c4e5852837619",
+            "username": "xuxublz"
+        },
+        "service": {
+            "hostname": "xuxu.rocks",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1470234927,
+    "expire_in": 157680000,
+    "prev": "c7c606ce3ef85613b99ea87fc6dda4c753d4aedd79c1c8f2303bf17148817d62",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIcAnicrZJbSBRRGMd301zbEnzInrpOQUirzjkz5zJbEF2o7AIRZNCFbc5l3Emb
+2XZnTZOoKHzJwMjsgg92keqhCIMUKrr5EPgQSIT4kgZh0IWIrOh+Rgp66LHzcjjf
++f3/5/99nP6Sgkg8umw81tvVlVsTHbh/Ih/Zcj5a1awxXzRpyWatTk5ssl7IXJCq
+c4WW1HSgA4qpoVsYGVzaNiMQCCqkZFy3IISUYswox9IRjo4kdZgudYAlxwAxagCD
+I93WEprjerUym8m6XqBsTYczAogtLSVAOHQjGJrSATq0HWxIyAVhBlHCtJ8LFSoc
+s3Oy0vVVTR1SE/H+wf/n3PkJO2oQrkOL6BgjYBMoIOWmRBRBdYOBFYI5mfXs3VLR
+jfnGPKvfp+1PaKrY4HIZzjVs5C+gMuvzupwSZrJ+4HO/XtXTQZBJhrKgKRNyeyVL
+/XZIMdcTaoZK0CCzOdf3tCRQJA/c0BKYRIeGaUGS0GRjxs3KlBsSiGCqqxU+IxuU
+JScc65hLQzoUYWAwy5I2JQ7HQtgmJ8gQpi2FIBYHnDrQ0A3mAAJMSgERGGphT3s8
+X0siFdOuVZY5t9azg3xWavsf3NteGInGI0WTJ4V/KxKfUvrnxy0fin2fVSO6Vw+N
+vJ9fPnzy2aO+g8f2vd5c1z5nx+w7SRlt73hxsWp3Qb03ph0X73oLxj5/pJdi7Hrx
+YXbLXruBmZXvv5a8ebm61Pd+wMXzqluMFeLqog2JnsEmNOPtl8/nPp1Op1u7V8my
+m9sewpkoMy1oebjywKH4aEV7/PSS6TvR3LMVNzov98dubFrsTRp/vn5r78VrS1+N
+JyY33iz8kFzg9b7tPH+hzG9re7K0CH3tPODMH2w50lZ85fWPEbqx5vZAX6anh1mR
+hag1+fRxyd3yrUeN5tbCRJmdXjDcQJtYybFl7UM/UR88HKtydvUsn/Jt57oz3VNH
+j1Qv7Di7ct6ptl//5TeG
+=ysbn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/xuxublz
+
+==================================================================
