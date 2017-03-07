@@ -14,8 +14,10 @@ date: February 23, 2017
 
 Get at me:
 
+* [**Keybase**](https://keybase.io/xuxublz)
 * [**Twitter**](https://twitter.com/xuxu_blz)
 * [**Facebook**](https://facebook.com/xuxubeleza)
 * [**Last.fm**](https://www.last.fm/user/xuxu_beleza)
+* [**LinkedIn**](https://www.linkedin.com/in/bruno-gama-71312819/)
 
 (fuck about.me)
