@@ -4,6 +4,7 @@ author: Bruno Gama
 date: February 24, 2017
 updated: February 24, 2017
 printable: 1
+bodyClass: justified-text cv
 -->
 
 **Bruno <span class="blue-text">Gama</span>**
@@ -11,14 +12,20 @@ printable: 1
 
 ### <span class="blue-text">**Front-End**</span> Developer
 
-Me envie um e-mail: [brunogama@fastmail.fm](mailto:brunogama@fastmail.fm)
+#### Me envie um e-mail: [brunogama@fastmail.fm](mailto:brunogama@fastmail.fm)
+
+<div class="print-only">
+<h4>Impresso a partir do meu CV disponível em [http://xuxu.rocks/cv](http://xuxu.rocks/cv)</h4>
+</div>
 
 **<span class="blue-text">Resumo:</span>**
 ------------------------------------------
 
-Sou um desenvolvedor web com 7 anos de experiência em desenvolvimento front-end para websites das mais variadas escalas.
+Sou um desenvolvedor web com 7 anos de experiência em desenvolvimento front-end para websites e web apps de diferentes escalas.
 
 Minha especialização é desenvolvimento de sites completos usando HTML5 + CSS3 + JavaScript (ES6, ReactJS, Node.js, jQuery), quando necessário um CMS, sou bastante forte com WordPress, desenvolvendo tanto temas completos, quanto plugins para conteúdos customizados e disponibilização de APIs.
+
+Gosto de desenvolver com um ambiente organizado utilizando controle de versão (Git), testes automatizados (Mocha), task runners/bundlers (Gulp, Webpack).
 
 Estou procurando novas oportunidades profissionais que me permitam desenvolver interfaces interativas utilizando todas as práticas modernas de desenvolvimento JavaScript. Pela minha experiência, tenho preferência por stacks que implementem ReactJS, mas me interesso em qualquer outro framework de front-end atual.
 
@@ -39,7 +46,7 @@ Estou procurando novas oportunidades profissionais que me permitam desenvolver i
 
 ### Front-End Developer na **[Digigroup Comunicação](http://digigroup.com.br/)**
 
-abril de 2011  -  até o momento (5 anos 11 meses)
+#### abril de 2011  -  até o momento (5 anos 11 meses)
 
 Digigroup Comunicação é o nome mais recente da ex-Converagência Interativa, aqui continuei o meu desenvolvimento profissional a partir da mesma posição.
 * Desenvolver websites e web applications utilizando HTML5+CSS3 acopanhado de tanto JavaScript puro quanto com a ajuda de libraries e frameworks de front-end (jQuery no passado, ReactJS no presente).
@@ -50,7 +57,7 @@ Digigroup Comunicação é o nome mais recente da ex-Converagência Interativa, 
 
 ### Front-end developer  na <span class="yellow-text">**Converagência Interativa**</span>
 
-julho de 2010  -  agosto de 2012  (2 anos 2 meses)
+#### julho de 2010  -  agosto de 2012  (2 anos 2 meses)
 
 Agência onde eu aprendi e desenvolvi a maioria dos meus conhecimentos de HTML e CSS modernos, e aprendi desenvolvimento básico de front-end para websites.
 * Criação de templates para email marketing, corte e manipulação de imagens.
@@ -60,7 +67,7 @@ Agência onde eu aprendi e desenvolvi a maioria dos meus conhecimentos de HTML e
 
 ### Estagiario  na **[ZeroUm Digital](http://www.zeroum.com.br/)**
 
-janeiro de 2010  -  agosto de 2010 (8 meses)
+#### janeiro de 2010  -  agosto de 2010 (8 meses)
 
 Minhas primeiras experiências com desenvolvimento básico de web.
 * Manutenção e atualização de páginas
@@ -73,11 +80,11 @@ Minhas primeiras experiências com desenvolvimento básico de web.
 
 ### Universidade **[Anhembi Morumbi](http://portal.anhembi.br/)**
 
-Bacharelado Design Digital, Janeiro de 2009 - Junho de 2013
+#### Bacharelado Design Digital, Janeiro de 2009 - Junho de 2013
 
 ### ETEC **[Carlos de Campos](http://www.eteccarlosdecampos.com.br/)**
 
-Ensino técnico em Design Gráfico, Janeiro de 2007 - Junho de 2008
+#### Ensino técnico em Design Gráfico, Janeiro de 2007 - Junho de 2008
 
 **<span class="blue-text">Idiomas</span>**
 ------------------------------------------

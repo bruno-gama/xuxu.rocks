@@ -124,11 +124,22 @@ body {
       font-size: 1.625em;
     }
 
+    h4 {
+      line-height: 1.625em;
+      margin: 1.625em 0;
+    }
+
   p {
     margin: 1.625em 0;
   }
+
   ul {
     list-style: square;
+    margin: 1.625em 0;
+  }
+
+  li {
+    line-height: 1.625em;
   }
 
   a {

@@ -23,7 +23,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 9, ../scss/boilerplate/_normalize.scss */
+/* line 9, ../../src/scss/boilerplate/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -36,7 +36,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, ../scss/boilerplate/_normalize.scss */
+/* line 19, ../../src/scss/boilerplate/_normalize.scss */
 body {
   margin: 0;
 }
@@ -49,7 +49,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 33, ../scss/boilerplate/_normalize.scss */
+/* line 33, ../../src/scss/boilerplate/_normalize.scss */
 article,
 aside,
 details,
@@ -70,7 +70,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 54, ../scss/boilerplate/_normalize.scss */
+/* line 54, ../../src/scss/boilerplate/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -85,7 +85,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 67, ../scss/boilerplate/_normalize.scss */
+/* line 67, ../../src/scss/boilerplate/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -95,7 +95,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 77, ../scss/boilerplate/_normalize.scss */
+/* line 77, ../../src/scss/boilerplate/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -106,7 +106,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, ../scss/boilerplate/_normalize.scss */
+/* line 89, ../../src/scss/boilerplate/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -114,7 +114,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 97, ../scss/boilerplate/_normalize.scss */
+/* line 97, ../../src/scss/boilerplate/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -125,7 +125,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 109, ../scss/boilerplate/_normalize.scss */
+/* line 109, ../../src/scss/boilerplate/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -133,7 +133,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 117, ../scss/boilerplate/_normalize.scss */
+/* line 117, ../../src/scss/boilerplate/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -142,7 +142,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 126, ../scss/boilerplate/_normalize.scss */
+/* line 126, ../../src/scss/boilerplate/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -151,7 +151,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 135, ../scss/boilerplate/_normalize.scss */
+/* line 135, ../../src/scss/boilerplate/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -160,7 +160,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 144, ../scss/boilerplate/_normalize.scss */
+/* line 144, ../../src/scss/boilerplate/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -169,7 +169,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 153, ../scss/boilerplate/_normalize.scss */
+/* line 153, ../../src/scss/boilerplate/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -177,7 +177,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 161, ../scss/boilerplate/_normalize.scss */
+/* line 161, ../../src/scss/boilerplate/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -186,12 +186,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 169, ../scss/boilerplate/_normalize.scss */
+/* line 169, ../../src/scss/boilerplate/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 173, ../scss/boilerplate/_normalize.scss */
+/* line 173, ../../src/scss/boilerplate/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -201,7 +201,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 184, ../scss/boilerplate/_normalize.scss */
+/* line 184, ../../src/scss/boilerplate/_normalize.scss */
 img {
   border: 0;
 }
@@ -209,7 +209,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 192, ../scss/boilerplate/_normalize.scss */
+/* line 192, ../../src/scss/boilerplate/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -219,7 +219,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 203, ../scss/boilerplate/_normalize.scss */
+/* line 203, ../../src/scss/boilerplate/_normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -227,7 +227,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 211, ../scss/boilerplate/_normalize.scss */
+/* line 211, ../../src/scss/boilerplate/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -237,7 +237,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, ../scss/boilerplate/_normalize.scss */
+/* line 221, ../../src/scss/boilerplate/_normalize.scss */
 pre {
   overflow: auto;
 }
@@ -245,7 +245,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 229, ../scss/boilerplate/_normalize.scss */
+/* line 229, ../../src/scss/boilerplate/_normalize.scss */
 code,
 kbd,
 pre,
@@ -266,7 +266,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 252, ../scss/boilerplate/_normalize.scss */
+/* line 252, ../../src/scss/boilerplate/_normalize.scss */
 button,
 input,
 optgroup,
@@ -283,7 +283,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, ../scss/boilerplate/_normalize.scss */
+/* line 266, ../../src/scss/boilerplate/_normalize.scss */
 button {
   overflow: visible;
 }
@@ -294,7 +294,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 277, ../scss/boilerplate/_normalize.scss */
+/* line 277, ../../src/scss/boilerplate/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -307,7 +307,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 290, ../scss/boilerplate/_normalize.scss */
+/* line 290, ../../src/scss/boilerplate/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -321,7 +321,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 302, ../scss/boilerplate/_normalize.scss */
+/* line 302, ../../src/scss/boilerplate/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -330,7 +330,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 311, ../scss/boilerplate/_normalize.scss */
+/* line 311, ../../src/scss/boilerplate/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -341,7 +341,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, ../scss/boilerplate/_normalize.scss */
+/* line 322, ../../src/scss/boilerplate/_normalize.scss */
 input {
   line-height: normal;
 }
@@ -353,7 +353,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 334, ../scss/boilerplate/_normalize.scss */
+/* line 334, ../../src/scss/boilerplate/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -367,7 +367,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 346, ../scss/boilerplate/_normalize.scss */
+/* line 346, ../../src/scss/boilerplate/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -378,7 +378,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 357, ../scss/boilerplate/_normalize.scss */
+/* line 357, ../../src/scss/boilerplate/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -393,7 +393,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 370, ../scss/boilerplate/_normalize.scss */
+/* line 370, ../../src/scss/boilerplate/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -402,7 +402,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 379, ../scss/boilerplate/_normalize.scss */
+/* line 379, ../../src/scss/boilerplate/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -413,7 +413,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 390, ../scss/boilerplate/_normalize.scss */
+/* line 390, ../../src/scss/boilerplate/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -424,7 +424,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 399, ../scss/boilerplate/_normalize.scss */
+/* line 399, ../../src/scss/boilerplate/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -433,7 +433,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 408, ../scss/boilerplate/_normalize.scss */
+/* line 408, ../../src/scss/boilerplate/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -443,39 +443,39 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 419, ../scss/boilerplate/_normalize.scss */
+/* line 419, ../../src/scss/boilerplate/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 424, ../scss/boilerplate/_normalize.scss */
+/* line 424, ../../src/scss/boilerplate/_normalize.scss */
 td,
 th {
   padding: 0;
 }
 
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-/* line 3, ../scss/boilerplate/_boilerplate.scss */
+/* line 3, ../../src/scss/boilerplate/_boilerplate.scss */
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 9, ../scss/boilerplate/_boilerplate.scss */
+/* line 9, ../../src/scss/boilerplate/_boilerplate.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 14, ../scss/boilerplate/_boilerplate.scss */
+/* line 14, ../../src/scss/boilerplate/_boilerplate.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 19, ../scss/boilerplate/_boilerplate.scss */
+/* line 19, ../../src/scss/boilerplate/_boilerplate.scss */
 hr {
   display: block;
   height: 1px;
@@ -485,7 +485,7 @@ hr {
   padding: 0;
 }
 
-/* line 28, ../scss/boilerplate/_boilerplate.scss */
+/* line 28, ../../src/scss/boilerplate/_boilerplate.scss */
 audio,
 canvas,
 iframe,
@@ -495,19 +495,19 @@ video {
   vertical-align: middle;
 }
 
-/* line 37, ../scss/boilerplate/_boilerplate.scss */
+/* line 37, ../../src/scss/boilerplate/_boilerplate.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 43, ../scss/boilerplate/_boilerplate.scss */
+/* line 43, ../../src/scss/boilerplate/_boilerplate.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 47, ../scss/boilerplate/_boilerplate.scss */
+/* line 47, ../../src/scss/boilerplate/_boilerplate.scss */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -524,13 +524,13 @@ textarea {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/* line 92, ../scss/boilerplate/_boilerplate.scss */
+/* line 92, ../../src/scss/boilerplate/_boilerplate.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 97, ../scss/boilerplate/_boilerplate.scss */
+/* line 97, ../../src/scss/boilerplate/_boilerplate.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -542,7 +542,7 @@ textarea {
   width: 1px;
 }
 
-/* line 108, ../scss/boilerplate/_boilerplate.scss */
+/* line 108, ../../src/scss/boilerplate/_boilerplate.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -553,24 +553,24 @@ textarea {
   width: auto;
 }
 
-/* line 118, ../scss/boilerplate/_boilerplate.scss */
+/* line 118, ../../src/scss/boilerplate/_boilerplate.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 122, ../scss/boilerplate/_boilerplate.scss */
+/* line 122, ../../src/scss/boilerplate/_boilerplate.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 128, ../scss/boilerplate/_boilerplate.scss */
+/* line 128, ../../src/scss/boilerplate/_boilerplate.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 132, ../scss/boilerplate/_boilerplate.scss */
+/* line 132, ../../src/scss/boilerplate/_boilerplate.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -579,7 +579,7 @@ textarea {
    Print styles
    ========================================================================== */
 @media print {
-  /* line 141, ../scss/boilerplate/_boilerplate.scss */
+  /* line 141, ../../src/scss/boilerplate/_boilerplate.scss */
   *,
   *:before,
   *:after {
@@ -589,52 +589,52 @@ textarea {
     text-shadow: none !important;
   }
 
-  /* line 150, ../scss/boilerplate/_boilerplate.scss */
+  /* line 150, ../../src/scss/boilerplate/_boilerplate.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 155, ../scss/boilerplate/_boilerplate.scss */
+  /* line 155, ../../src/scss/boilerplate/_boilerplate.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 159, ../scss/boilerplate/_boilerplate.scss */
+  /* line 159, ../../src/scss/boilerplate/_boilerplate.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 163, ../scss/boilerplate/_boilerplate.scss */
+  /* line 163, ../../src/scss/boilerplate/_boilerplate.scss */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
   }
 
-  /* line 168, ../scss/boilerplate/_boilerplate.scss */
+  /* line 168, ../../src/scss/boilerplate/_boilerplate.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 174, ../scss/boilerplate/_boilerplate.scss */
+  /* line 174, ../../src/scss/boilerplate/_boilerplate.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 178, ../scss/boilerplate/_boilerplate.scss */
+  /* line 178, ../../src/scss/boilerplate/_boilerplate.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 183, ../scss/boilerplate/_boilerplate.scss */
+  /* line 183, ../../src/scss/boilerplate/_boilerplate.scss */
   img {
     max-width: 100% !important;
   }
 
-  /* line 187, ../scss/boilerplate/_boilerplate.scss */
+  /* line 187, ../../src/scss/boilerplate/_boilerplate.scss */
   p,
   h2,
   h3 {
@@ -642,7 +642,7 @@ textarea {
     widows: 3;
   }
 
-  /* line 194, ../scss/boilerplate/_boilerplate.scss */
+  /* line 194, ../../src/scss/boilerplate/_boilerplate.scss */
   h2,
   h3 {
     page-break-after: avoid;
@@ -814,7 +814,7 @@ I've edited it a bit, but it's a nice starting point.
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
-/* line 79, ../scss/partials/_typography.scss */
+/* line 79, ../../src/scss/partials/_typography.scss */
 p {
   -ms-word-wrap: break-word;
   word-break: break-word;
@@ -833,83 +833,95 @@ p {
 }
 
 /* Base typography styles */
-/* line 102, ../scss/partials/_typography.scss */
+/* line 102, ../../src/scss/partials/_typography.scss */
 body {
   font-family: "Exo", sans-serif;
   font-weight: 200;
   line-height: 1.625em;
 }
 
-/* line 108, ../scss/partials/_typography.scss */
+/* line 108, ../../src/scss/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1em;
 }
 
-/* line 113, ../scss/partials/_typography.scss */
+/* line 113, ../../src/scss/partials/_typography.scss */
 h1 {
   font-size: 4.291em;
   line-height: 1.136em;
 }
 
-/* line 118, ../scss/partials/_typography.scss */
+/* line 118, ../../src/scss/partials/_typography.scss */
 h2 {
   font-size: 2.641em;
   line-height: 1.224em;
 }
 
-/* line 123, ../scss/partials/_typography.scss */
+/* line 123, ../../src/scss/partials/_typography.scss */
 h3 {
   font-size: 1.625em;
 }
 
-/* line 127, ../scss/partials/_typography.scss */
+/* line 127, ../../src/scss/partials/_typography.scss */
+h4 {
+  line-height: 1.625em;
+  margin: 1.625em 0;
+}
+
+/* line 132, ../../src/scss/partials/_typography.scss */
 p {
   margin: 1.625em 0;
 }
 
-/* line 130, ../scss/partials/_typography.scss */
+/* line 136, ../../src/scss/partials/_typography.scss */
 ul {
   list-style: square;
+  margin: 1.625em 0;
 }
 
-/* line 134, ../scss/partials/_typography.scss */
+/* line 141, ../../src/scss/partials/_typography.scss */
+li {
+  line-height: 1.625em;
+}
+
+/* line 145, ../../src/scss/partials/_typography.scss */
 a {
   color: #ffff5e;
 }
-/* line 137, ../scss/partials/_typography.scss */
+/* line 148, ../../src/scss/partials/_typography.scss */
 a:hover, a:focus {
   color: #ffff91;
 }
 
 /* Text sizes */
-/* line 144, ../scss/partials/_typography.scss */
+/* line 155, ../../src/scss/partials/_typography.scss */
 .bigger {
   font-size: 1.5em;
 }
 
-/* line 148, ../scss/partials/_typography.scss */
+/* line 159, ../../src/scss/partials/_typography.scss */
 .smaller {
   font-size: .7em;
 }
 
 /* Text coloring */
-/* line 154, ../scss/partials/_typography.scss */
+/* line 165, ../../src/scss/partials/_typography.scss */
 .green-text {
   color: #00ff6c;
 }
 
-/* line 158, ../scss/partials/_typography.scss */
+/* line 169, ../../src/scss/partials/_typography.scss */
 .blue-text {
   color: #00fffc;
 }
 
-/* line 162, ../scss/partials/_typography.scss */
+/* line 173, ../../src/scss/partials/_typography.scss */
 .yellow-text {
   color: #ffff5e;
 }
 
-/* line 166, ../scss/partials/_typography.scss */
+/* line 177, ../../src/scss/partials/_typography.scss */
 .red-text {
   color: #ff2424;
 }
@@ -926,23 +938,23 @@ Author: Bruno Gama
 Stylesheet: Base Mobile Stylesheet
 
 ******************************************************************/
-/* line 9, ../scss/breakpoints/_base.scss */
+/* line 9, ../../src/scss/breakpoints/_base.scss */
 body {
   background: #333 url("../img/bg_pattern.png") repeat center 0;
   color: #fff;
 }
 
-/* line 15, ../scss/breakpoints/_base.scss */
+/* line 15, ../../src/scss/breakpoints/_base.scss */
 .main {
   max-width: 650px;
   margin: 52px auto;
   text-align: center;
 }
-/* line 20, ../scss/breakpoints/_base.scss */
+/* line 20, ../../src/scss/breakpoints/_base.scss */
 .main h1, .main h2, .main h3 {
   margin: 0;
 }
-/* line 24, ../scss/breakpoints/_base.scss */
+/* line 24, ../../src/scss/breakpoints/_base.scss */
 .main h3 {
   margin-bottom: 26px;
 }
@@ -959,15 +971,75 @@ body {
   Stylesheet: Screens worth 768px or more
   
   ******************************************************************/
-  /* line 9, ../scss/breakpoints/_768up.scss */
+  /* line 9, ../../src/scss/breakpoints/_768up.scss */
   body {
     background-position: right 0;
   }
 
-  /* line 13, ../scss/breakpoints/_768up.scss */
+  /* line 13, ../../src/scss/breakpoints/_768up.scss */
   .main {
     float: right;
     margin-right: 26px;
     text-align: right;
+  }
+  /* line 18, ../../src/scss/breakpoints/_768up.scss */
+  .main ul, .main ol {
+    padding-left: 1em;
+  }
+
+  /* line 25, ../../src/scss/breakpoints/_768up.scss */
+  .justified-text .main p, .justified-text .main li {
+    text-align: justify;
+  }
+}
+/*
+	--- COMPONENT STYLES ---
+	Isolated styles for isolated compontents or pages
+*/
+/* line 5, ../../src/scss/components/_cv-page.scss */
+.cv h2 {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 26px;
+  margin-top: -1px;
+  overflow: hidden;
+}
+/* line 11, ../../src/scss/components/_cv-page.scss */
+.cv h2 strong {
+  max-width: 80%;
+  float: right;
+}
+
+/*
+	--- Print styles ---
+	Hides print-only content and applies print-only styles
+*/
+/* line 1, ../../src/scss/partials/_print.scss */
+.print-only {
+  display: none;
+}
+
+@media only print {
+  /* line 7, ../../src/scss/partials/_print.scss */
+  .print-only {
+    display: initial;
+  }
+
+  /* line 11, ../../src/scss/partials/_print.scss */
+  .main {
+    text-align: left;
+  }
+
+  /* line 20, ../../src/scss/partials/_print.scss */
+  .cv h2 strong {
+    max-width: auto;
+    float: none;
+  }
+  /* line 25, ../../src/scss/partials/_print.scss */
+  .cv h2 a {
+    text-decoration: none;
+  }
+  /* line 31, ../../src/scss/partials/_print.scss */
+  .cv a:link:after, .cv a:visited:after {
+    display: none;
   }
 }

@@ -9,10 +9,10 @@
 http_path = "/"
 
 # 2. probably don't need to touch these
-css_dir = "../css"
+css_dir = "../../public/css"
 sass_dir = "./"
-images_dir = "../img"
-javascripts_dir = "../js"
+images_dir = "../../public/img"
+javascripts_dir = "../../public/js"
 environment = :development
 relative_assets = true
 

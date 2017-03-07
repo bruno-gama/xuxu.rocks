@@ -1,0 +1,37 @@
+.print-only {
+	display: none;
+}
+
+@media only print {
+
+	.print-only {
+		display: initial;
+	}
+
+	.main {
+		text-align: left;
+	}
+
+
+	.cv {
+
+		h2 {
+
+			strong {
+				max-width: auto;
+				float: none;
+			}
+
+			a {
+				text-decoration: none;
+			}
+		}
+
+		a {
+			&:link:after, &:visited:after {
+				display: none;
+			}
+		}
+	}
+
+}

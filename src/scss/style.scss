@@ -62,3 +62,16 @@
 	@import 'breakpoints/768up';
 
 } // end of media query
+
+/*
+	--- COMPONENT STYLES ---
+	Isolated styles for isolated compontents or pages
+*/
+@import 'components/cv-page';
+
+
+/*
+	--- Print styles ---
+	Hides print-only content and applies print-only styles
+*/
+@import 'partials/print';

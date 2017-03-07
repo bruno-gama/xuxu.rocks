@@ -14,4 +14,15 @@ body {
 		float: right;
 		margin-right: 26px;
 		text-align: right;
+
+		ul, ol {
+			padding-left: 1em;
+		}
+	}
+
+	.justified-text .main {
+
+		p, li {
+			text-align: justify;
+		}
 	}
