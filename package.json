@@ -4,7 +4,8 @@
   "description": "Node.js version for my business-card-site",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "server": "node index.js"
   },
   "repository": {
     "type": "git",
