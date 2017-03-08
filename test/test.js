@@ -9,22 +9,24 @@ describe('rocksContent', function() {
 
   describe('#getContent()', function() {
 
-    it('should return object with status 1 indicating that it read the file', function(done) {
-	  	rocksContent.get('/index', function (data) {
-	  		if(data.status) {
-	  			done();
-	  		}
-	  		else(done('failed'));
-	  	});
+    it('should fulfill promise indicating that it found and read the file', function(done) {
+	  	rocksContent.get('/index')
+		  	.then(function (data) {
+		  		done();
+		  	})
+		  	.catch(function (data) {
+		  		done('failed');
+		  	});
     });
 
-    it('should return object with status 0 indicating that it opened the 404 page', function(done) {
-	  	rocksContent.get('/asd', function (data) {
-	  		if(!data.status) {
-	  			done();
-	  		}
-	  		else(done('failed'));
-	  	});
+    it('should reject promise indicating that it did not find and did not read the file', function(done) {
+	  	rocksContent.get('/thisthingwillneverexist')
+	  		.then(function (data) {
+		  		done('failed');
+		  	})
+		  	.catch(function (data) {
+		  		done();
+		  	});
     });
 
   });

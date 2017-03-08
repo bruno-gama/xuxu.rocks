@@ -19,6 +19,7 @@
   "homepage": "https://bitbucket.org/bruno_gama/xuxu-rocks-node#readme",
   "dependencies": {
     "ejs": "^2.5.6",
+    "es6-promisify": "^5.0.0",
     "express": "^4.14.1",
     "lodash": "^4.17.4",
     "marked": "^0.3.6",
