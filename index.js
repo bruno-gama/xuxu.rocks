@@ -15,7 +15,8 @@ app.set('views', __dirname + '/src/views');
 app.set('view engine', 'ejs');
 
 // returns template + content from a .md file
-app.get('*', (request, response) => rocksContent.get(request.path, (data) => response.render('templates/main', { data }) ) ); 
+// the page content is parsed through my rocksContent.getContent middleware
+app.get('*', rocksContent.getContent, (req, res) => res.render('templates/main', { data: req.rocksContent }) ); 
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));

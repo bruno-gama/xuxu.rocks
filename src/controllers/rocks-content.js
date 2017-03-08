@@ -5,7 +5,8 @@ const marked = require('marked');
 const mdMeta = require('./../helpers/mdMeta.js');
 
 
-module.exports.get = function(path = '/', complete) {
+// get thing
+const get = (path = '/', complete) => {
     const contentPath = './src/content';
     const filename = path === '/' ? '/index.md' : path + '.md';
 
@@ -57,3 +58,16 @@ module.exports.get = function(path = '/', complete) {
     }
 
 }
+
+const getContent = (req, res, next) => {
+
+    get(req.path, (data) => { 
+        req.rocksContent = data;
+        next();
+    });
+
+};
+
+
+module.exports.get = get;
+module.exports.getContent = getContent;
