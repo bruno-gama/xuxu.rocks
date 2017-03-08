@@ -1,6 +1,9 @@
 {
   "name": "xuxu.rocks-node",
   "version": "1.0.0",
+  "engines": {
+    "node": "7.7.1"
+  },
   "description": "Node.js version for my business-card-site",
   "main": "index.js",
   "scripts": {
