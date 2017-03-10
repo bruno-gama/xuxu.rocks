@@ -21,10 +21,10 @@ const readFile = promisify(fs.readFile);
  *
  * @private
  * @param {path} string Path from the server request
+ * @param {contentPath} string Path for the markdown content directory
  * @returns {Promise} Fullfils on read file succes, rejects on read file error
  */
-const get = (path = '/') => {
-    const contentPath = './src/content';
+const get = (path = '/', contentPath = './src/content') => {
     const filename = path === '/' ? '/index.md' : path + '.md';
 
     return new Promise( async (resolve) => {
@@ -70,11 +70,12 @@ const get = (path = '/') => {
  * @returns {function} Function that matches according to the given pattern.
  */
 const getContent = async (req, res, next) => {
-    let data = await get(req.path);
+    const contentPath = req.app.get('md content path');
+    let data = await get(req.path, contentPath);
     
     if(!data.status) {
         res.status(404);
-        data = await get('/404');
+        data = await get('/404', contentPath);
     }
 
     req.rocksContent = data;

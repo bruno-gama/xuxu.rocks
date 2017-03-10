@@ -15,11 +15,12 @@ const rocksContent = require('./../src/controllers/rocks-content.js');
 const mdMeta = require('./../src/helpers/mdMeta.js');
 
 describe('rocksContent', function() {
+	const contentPath = __dirname + '/../src/content';
 
-  describe('#getContent()', function() {
+	describe('#getContent()', function() {
 
-    it('should fulfill promise with object containing status property equal to 1 indicating that it found and read the file', function(done) {
-	  	rocksContent.get('/index')
+	it('should fulfill promise with object containing status property equal to 1 indicating that it found and read the file', function(done) {
+	  	rocksContent.get('/index', contentPath)
 		  	.then(function (data) {
 		  		assert.equal(data.status, 1);
 		  		done();
@@ -27,9 +28,9 @@ describe('rocksContent', function() {
 		  	.catch(function (err) {
 		  		done(err);
 		  	});
-    });
+	});
 
-    it('should fulfill promise with object containing status property equal to 0 indicating that it did not find and did not read the file', function(done) {
+	it('should fulfill promise with object containing status property equal to 0 indicating that it did not find and did not read the file', function(done) {
 	  	rocksContent.get('/thisthingwillneverexisthopefully')
 		  	.then(function (data) {
 		  		assert.equal(data.status, 0);
@@ -38,9 +39,9 @@ describe('rocksContent', function() {
 		  	.catch(function (err) {
 		  		done(err);
 		  	});
-    });
+	});
 
-  });
+	});
 });
 
 describe('mdMeta', function() {

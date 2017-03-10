@@ -10,9 +10,12 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
 
-// views is directory for all template files
+// views is the directory for all template files
 app.set('views', __dirname + '/src/views');
 app.set('view engine', 'ejs');
+
+// content is the directory for all markdown files
+app.set('md content path', __dirname + '/src/content');
 
 // returns template + content from a .md file
 // the page content is parsed through my rocksContent.getContent middleware
