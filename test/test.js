@@ -1,7 +1,16 @@
 'use strict';
 
-const assert = require('assert');
+// assertion libraries
+const chai = require('chai');
+const chaiAsPromised = require('chai-as-promised');
 
+chai.use(chaiAsPromised);
+
+const assert = chai.assert;
+
+chai.should();
+
+// libraries to be tested
 const rocksContent = require('./../src/controllers/rocks-content.js');
 const mdMeta = require('./../src/helpers/mdMeta.js');
 
@@ -9,23 +18,25 @@ describe('rocksContent', function() {
 
   describe('#getContent()', function() {
 
-    it('should fulfill promise indicating that it found and read the file', function(done) {
+    it('should fulfill promise with object containing status property equal to 1 indicating that it found and read the file', function(done) {
 	  	rocksContent.get('/index')
 		  	.then(function (data) {
+		  		assert.equal(data.status, 1);
 		  		done();
 		  	})
-		  	.catch(function (data) {
-		  		done('failed');
+		  	.catch(function (err) {
+		  		done(err);
 		  	});
     });
 
-    it('should reject promise indicating that it did not find and did not read the file', function(done) {
-	  	rocksContent.get('/thisthingwillneverexist')
-	  		.then(function (data) {
-		  		done('failed');
-		  	})
-		  	.catch(function (data) {
+    it('should fulfill promise with object containing status property equal to 0 indicating that it did not find and did not read the file', function(done) {
+	  	rocksContent.get('/thisthingwillneverexisthopefully')
+		  	.then(function (data) {
+		  		assert.equal(data.status, 0);
 		  		done();
+		  	})
+		  	.catch(function (err) {
+		  		done(err);
 		  	});
     });
 

@@ -45,7 +45,7 @@ const get = (path = '/') => {
         catch(err) {
 
             if(path !== '/404') {
-                resolve(false);
+                resolve({status: 0});
             }
             else {
                 resolve({
@@ -72,7 +72,7 @@ const get = (path = '/') => {
 const getContent = async (req, res, next) => {
     let data = await get(req.path);
     
-    if(!data) {
+    if(!data.status) {
         res.status(404);
         data = await get('/404');
     }
