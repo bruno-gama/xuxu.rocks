@@ -1,11 +1,6 @@
 const path = require('path');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
-const extractSass = new ExtractTextPlugin({
-    filename: "[name].[contenthash].css",
-    disable: false // process.env.NODE_ENV === "development"
-});
-
 module.exports = {
   devtool: 'sourcemap',
   entry: {
