@@ -42,9 +42,19 @@ module.exports = {
         exclude: [/node_modules/],
         use: ExtractTextPlugin.extract({
           use: [{
-            loader: "css-loader"
+            loader: 'css-loader'
           }, {
-            loader: "sass-loader"
+            loader: 'postcss-loader',
+            options: {
+              plugins: function () {
+                return [
+                  require('autoprefixer'),
+                  require('cssnano')
+                ];
+              }
+            }
+          }, {
+            loader: 'sass-loader'
           }],
           // use style-loader in development
           fallback: "style-loader"
