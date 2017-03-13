@@ -7,6 +7,10 @@ Install all dev dependencies with:
 
     npm install --save-dev
 
+Build JS, CSS, and other assets with:
+
+	webpack
+
 Run tests with:
 
     npm test
