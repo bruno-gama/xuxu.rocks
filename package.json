@@ -10,10 +10,7 @@
     "test": "mocha",
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://bruno_gama@bitbucket.org/bruno_gama/xuxu-rocks-node.git"
-  },
+  "repository": "git+https://bruno_gama@bitbucket.org/bruno_gama/xuxu-rocks-node.git",
   "author": "Bruno Gama",
   "license": "ISC",
   "homepage": "https://bitbucket.org/bruno_gama/xuxu-rocks-node#readme",
