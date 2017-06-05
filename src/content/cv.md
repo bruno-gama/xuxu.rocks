@@ -23,11 +23,11 @@ bodyClass: justified-text cv
 
 Sou um desenvolvedor web com 7 anos de experiência em desenvolvimento front-end para websites e web apps de diferentes escalas.
 
-Minha especialização é desenvolvimento de sites completos usando HTML5 + CSS3 + JavaScript (ES6, ReactJS, Node.js, jQuery), quando necessário um CMS, sou bastante forte com WordPress, desenvolvendo tanto temas completos, quanto plugins para conteúdos customizados e disponibilização de APIs.
+Minha especialização é desenvolvimento de sites completos usando HTML5 + CSS3 + JavaScript (ES6, ReactJS, Node.js, jQuery), quando necessário um CMS, sou bastante forte com WordPress, desenvolvendo tanto temas completos quanto plugins para conteúdos customizados e disponibilização de APIs.
 
-Gosto de desenvolver com um ambiente organizado utilizando controle de versão (Git), testes automatizados (Mocha), task runners/bundlers (Gulp, Webpack).
+Gosto de desenvolver com um ambiente organizado utilizando controle de versão (Git), testes automatizados (Mocha) e task runners/bundlers (Gulp, Webpack).
 
-Estou procurando novas oportunidades profissionais que me permitam desenvolver interfaces interativas utilizando todas as práticas modernas de desenvolvimento JavaScript. Pela minha experiência, tenho preferência por stacks que implementem ReactJS, mas me interesso em qualquer outro framework de front-end atual.
+Estou há dois meses me adaptando à minha nova posição como Desenvolvedor Front-End em diversos projetos da [Tuneduc](http://tuneduc.com.br/), tenho interesse em participar como freelancer em projetos que me permitam desenvolver interfaces interativas utilizando todas as práticas modernas de desenvolvimento JavaScript. Pela minha experiência, tenho preferência por stacks que utilizem ReactJS, mas me interesso em qualquer outro framework de front-end atual.
 
 **Competências e <span class="blue-text">especialidades</span>**
 ----------------------------------------------------------------
@@ -36,17 +36,31 @@ Estou procurando novas oportunidades profissionais que me permitam desenvolver i
 * Libraries/Frameworks de Front-end (ReactJS, AngularJS, jQuery)
 * Task Runners e unit tests (Gulp, Grunt, Mocha)
 * Node.js (Webpack, Express)
-* Design e interação com APIs
-* PHP + Apache + MySQL
+* Design de, e interação com APIs
+* PHP + MySQL/MariaDB/PostgreSQL
 * MVC* frameworks (Laravel, CakePHP, CodeIgniter)
 * Wordpress - Desenvolvimento de Temas e Plugins
 
 **Experiência <span class="blue-text">profissional:</span>**
 ------------------------------------------------------------
 
+### Front-End Developer na **[Tuneduc](http://tuneduc.com.br/)**
+
+#### abril de 2017  -  até o momento
+
+A Tuneduc é uma startup especializada no desenvolvimento de soluções tecnólogicas para o planejamento educacional e de marketing em instituições de ensino a partir da análise de big data. Aqui passei a trabalhar num ambiente mais adaptado ao ritmo de desenvolvimento de software, com metodologia SCRUM contando com sprints bem definidas, reuniões diárias, planejamento constante.
+
+* Desenvolver e manter de Single Page Applications utilizando ReactJS e ES6
+* Especificar funcionalidades com testes (Mocha) e documentação de libraries
+* Propor e adaptar sistemas de design de CSS com o objetivo de manter unidade e organização entre projetos
+* Propor e planejar design de libraries de front-end, com o objetivo de criar componentes e funcionalidades reutilizáveis entre diversos projetos
+* Participar do planejamento de design, funcionalidades, APIs
+* Controlar versionamento e releases com Git (Bitbucket)
+* Controlar integração continua e deploys com Codeship
+
 ### Front-End Developer na **[Digigroup Comunicação](http://digigroup.com.br/)**
 
-#### abril de 2011  -  até o momento (5 anos 11 meses)
+#### abril de 2011  -  abril de 2017 (6 anos)
 
 Digigroup Comunicação é o nome mais recente da ex-Converagência Interativa, aqui continuei o meu desenvolvimento profissional a partir da mesma posição.
 * Desenvolver websites e web applications utilizando HTML5+CSS3 acopanhado de tanto JavaScript puro quanto com a ajuda de libraries e frameworks de front-end (jQuery no passado, ReactJS no presente).
