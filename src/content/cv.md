@@ -23,19 +23,17 @@ bodyClass: justified-text cv
 
 Sou um desenvolvedor web com 7 anos de experiência em desenvolvimento front-end para websites e web apps de diferentes escalas.
 
-Minha especialização é desenvolvimento de sites completos usando HTML5 + CSS3 + JavaScript (ES6, ReactJS, Node.js, jQuery), quando necessário um CMS, sou bastante forte com WordPress, desenvolvendo tanto temas completos quanto plugins para conteúdos customizados e disponibilização de APIs.
+Sou especializado no desenvolvimento de interfaces para sites e web apps utilizando HTML5 + CSS3 + Javascript (ES6, React, Node.js), e estou me dedicando a estudos mais aprofundados sobre arquitetura de front-end focada em performance, responsividade e escalabilidade. Meu foco atual é ser capaz de desenvolver aplicações flexíveis que se comportem bem em qualquer *device*, seja esse um conceito simples de site responsivo ou uma arquitetura complexa de Progressive Web App.
 
-Gosto de desenvolver com um ambiente organizado utilizando controle de versão (Git), testes automatizados (Mocha) e task runners/bundlers (Gulp, Webpack).
+Estou há alguns meses me adaptando à minha nova posição como Desenvolvedor Front-End em diversos projetos da [Tuneduc](http://tuneduc.com.br/), tenho interesse em participar como freelancer em projetos que me permitam desenvolver interfaces interativas utilizando todas as práticas modernas de desenvolvimento JavaScript. Pela minha experiência, tenho preferência por stacks que utilizem ReactJS, mas me interesso em qualquer outro framework de front-end atual.
 
-Estou há dois meses me adaptando à minha nova posição como Desenvolvedor Front-End em diversos projetos da [Tuneduc](http://tuneduc.com.br/), tenho interesse em participar como freelancer em projetos que me permitam desenvolver interfaces interativas utilizando todas as práticas modernas de desenvolvimento JavaScript. Pela minha experiência, tenho preferência por stacks que utilizem ReactJS, mas me interesso em qualquer outro framework de front-end atual.
-
-**Competências e <span class="blue-text">especialidades</span>**
+**Competências e <span class="blue-text">especializações</span>**
 ----------------------------------------------------------------
 * HTML5 + CSS3
 * JavaScript puro (ES5 ou ES2015)
 * Libraries/Frameworks de Front-end (ReactJS, AngularJS, jQuery)
-* Task Runners e unit tests (Gulp, Grunt, Mocha)
-* Node.js (Webpack, Express)
+* Task Runners e unit tests (Gulp, Grunt, Mocha, Webpack)
+* Node.js (Express)
 * Design de, e interação com APIs
 * PHP + MySQL/MariaDB/PostgreSQL
 * MVC* frameworks (Laravel, CakePHP, CodeIgniter)
