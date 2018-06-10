@@ -21,23 +21,50 @@ bodyClass: justified-text cv
 **<span class="blue-text">Resumo:</span>**
 ------------------------------------------
 
-Sou um desenvolvedor web com 7 anos de experiência em desenvolvimento front-end para websites e web apps de diferentes escalas.
+Sou um desenvolvedor web com 8 anos de experiência em desenvolvimento front-end
+para websites e web apps de diferentes escalas.
 
-Sou especializado no desenvolvimento de interfaces para sites e web apps utilizando HTML5 + CSS3 + Javascript (ES6, React, Node.js), e estou me dedicando a estudos mais aprofundados sobre arquitetura de front-end focada em performance, responsividade e escalabilidade. Meu foco atual é ser capaz de desenvolver aplicações flexíveis que se comportem bem em qualquer *device*, seja esse um conceito simples de site responsivo ou uma arquitetura complexa de Progressive Web App.
+Sou especializado no desenvolvimento de interfaces para sites e web apps
+utilizando Javascript (ES6, React, Node.js) e estou me
+dedicando a estudos mais aprofundados sobre arquitetura de front-end focada em
+performance, responsividade e escalabilidade. Meu foco atual é ser capaz de
+desenvolver aplicações flexíveis que se comportem bem em qualquer *device*,
+seja esse um conceito simples de site responsivo ou uma arquitetura complexa de
+Progressive Web App.
 
-Estou há alguns meses me adaptando à minha nova posição como Desenvolvedor Front-End em diversos projetos da [Tuneduc](http://tuneduc.com.br/), tenho interesse em participar como freelancer em projetos que me permitam desenvolver interfaces interativas utilizando todas as práticas modernas de desenvolvimento JavaScript. Pela minha experiência, tenho preferência por stacks que utilizem ReactJS, mas me interesso em qualquer outro framework de front-end atual.
+Estou há pouco mais de um ano trabalhando como Front-End pleno em diversos
+projetos da [Tuneduc](http://tuneduc.com.br/) e no momento sou o único desenvolvedor
+especializado em JavaScript e Front-End da empresa.
+
+Tenho interesse em participar de projetos que me permitam desenvolver interfaces
+interativas utilizando todas as práticas modernas de desenvolvimento JavaScript
+e que permitam que eu cresça como um desenvolvedor sem me sentir preso a libraries
+ou frameworks específicos.
+
+Pela minha experiência, tenho preferência por stacks que utilizem ReactJS,
+mas tenho um interesse em aprender novas tecnologias, particularmente Elm e ReasonML.
 
 **Competências e <span class="blue-text">especializações</span>**
 ----------------------------------------------------------------
 * HTML5 + CSS3
-* JavaScript puro (ES5 ou ES2015)
-* Libraries/Frameworks de Front-end (ReactJS, AngularJS, jQuery)
-* Task Runners e unit tests (Gulp, Grunt, Mocha, Webpack)
+* JavaScript moderno (ES6, ES7)
+* React JS (Redux, Styled-components)
+* Unit tests (Mocha, Jest, Ava)
+* Task Runners e unit tests (Webpack, Gulp, Grunt)
 * Node.js (Express)
-* Design de, e interação com APIs
-* PHP + MySQL/MariaDB/PostgreSQL
-* MVC* frameworks (Laravel, CakePHP, CodeIgniter)
+* Design de, e interação com APIs RESTful
+* PHP + MySQL/MariaDB/PostgreSQL & MVC frameworks
 * Wordpress - Desenvolvimento de Temas e Plugins
+
+**Interesses para <span class="blue-text">aprendizado</span>**
+----------------------------------------------------------------
+* Programação Funcional
+* ReasonML
+* Elm
+* GraphQL
+* Progressive Web Apps
+* Alguma linguagem funcional para back-end (Elixir, Ocaml, Clojure)
+* Tecnologias para data-viz dinâmico (D3.js)
 
 **Experiência <span class="blue-text">profissional:</span>**
 ------------------------------------------------------------
@@ -46,15 +73,52 @@ Estou há alguns meses me adaptando à minha nova posição como Desenvolvedor F
 
 #### abril de 2017  -  até o momento
 
-A Tuneduc é uma startup especializada no desenvolvimento de soluções tecnólogicas para o planejamento educacional e de marketing em instituições de ensino a partir da análise de big data. Aqui passei a trabalhar num ambiente mais adaptado ao ritmo de desenvolvimento de software, com metodologia SCRUM contando com sprints bem definidas, reuniões diárias, planejamento constante.
+A Tuneduc é uma Startup de Tecnologia Educacional cujo objetivo é processar
+grandes quantidades de dados públicos e disponibilizá-los em um formato que pode
+ser usado mais apropriadamente no sistema de ensino brasileiro, possibilitando
+um planejamento pedagógico verdadeiramente baseado em evidências, seja isso na
+rotina diária do professor em sala de aula, ou nas definições de objetivos de
+abrangência estadual que são feitas por órgãos do governo.
 
-* Desenvolver e manter de Single Page Applications utilizando ReactJS e ES6
-* Especificar funcionalidades com testes (Mocha) e documentação de libraries
-* Propor e adaptar sistemas de design de CSS com o objetivo de manter unidade e organização entre projetos
-* Propor e planejar design de libraries de front-end, com o objetivo de criar componentes e funcionalidades reutilizáveis entre diversos projetos
-* Participar do planejamento de design, funcionalidades, APIs
-* Controlar versionamento e releases com Git (Bitbucket)
-* Controlar integração continua e deploys com Codeship
+Eu colaboro com uma equipe de desenvolvimento ágil pequena e bem-organizada que
+trabalha com Scrum. Eu participo de reuniões diárias assim como de reuniões de
+planejamento e review. Uma das minhas outras responsabilidades é interagir com
+as equipes de design de produto e de marking para contribuir para o planejamento
+de produtos e features futuros que poderão entrar em ciclo de desenvolvimento.
+
+Os principais aspectos do meu trabalho na equipe envolvem manter a arquitetura
+de front-end de todos os produtos da empresa, o que significa desenvolver novas
+features, refatorar código legado, migrar tecnologias, e algumas vezes projetar
+a arquitetura para o desenvolvimento de um novo projeto. Eu mantenho comunicação
+constante com os desenvolvedores back-end e costumo participar nos processos de
+design dos serviços e APIs que desenvolvemos.
+
+Nossa _stack_ tecnológica é focada em _single-page-applications_ desenvolvidas com
+React e Redux, mas também mantemos um aplicativo mobile híbrido que foi
+construido com Ionic/Angular e Typescript. Como somos um time pequeno, o devOps
+do front-end é sempre uma das minhas responsabilidades, e por isso eu
+frequentemente preciso trabalhar com a configuração de ferramentas e o
+desenvolvimento de scripts para o nosso processo de build e distribuição, por
+isso o Docker, o GitLab CI e a AWS são alguns dos meus melhores amigos.
+
+No momento, meus objetivos para um futuro próximo são de progressivamente
+injetar capacidades de PWA em um dos nossos principais projetos juntamente com
+_features_ como funcionalidade offline com Service Workers. Eu também estou
+trabalhando em adicionar _type annotations_ com FlowType em toda a nossa base de
+código JavaScript. Eu ainda desejo desenvolver pelo menos uma aplicação inteira
+em produção com ReasonReact ou Elm.
+
+Tecnologia: 
+* ECMAScript2015/2016
+* Node.JS
+* FlowType, Typescript
+* Mocha, Jest, Ava
+* React.JS
+* Redux
+* Styled-Components
+* Angular.JS/Ionic
+* APIs RESTful
+* AWS S3, CloudFront
 
 ### Front-End Developer na **[Digigroup Comunicação](http://digigroup.com.br/)**
 
