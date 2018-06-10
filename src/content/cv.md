@@ -50,9 +50,10 @@ mas tenho um interesse em aprender novas tecnologias, particularmente Elm e Reas
 * JavaScript moderno (ES6, ES7)
 * React JS (Redux, Styled-components)
 * Unit tests (Mocha, Jest, Ava)
-* Task Runners e unit tests (Webpack, Gulp, Grunt)
+* Task Runners/Bundlers (Webpack, Gulp, Grunt)
 * Node.js (Express)
 * Design de, e interação com APIs RESTful
+* Docker + Ferramentas de CI (GitLab CI)
 * PHP + MySQL/MariaDB/PostgreSQL & MVC frameworks
 * Wordpress - Desenvolvimento de Temas e Plugins
 
@@ -63,8 +64,9 @@ mas tenho um interesse em aprender novas tecnologias, particularmente Elm e Reas
 * Elm
 * GraphQL
 * Progressive Web Apps
+* Amazon Lambda
 * Alguma linguagem funcional para back-end (Elixir, Ocaml, Clojure)
-* Tecnologias para data-viz dinâmico (D3.js)
+* Tecnologias para data-viz dinâmico (D3.js, RxJS, Canvas, WebGL)
 
 **Experiência <span class="blue-text">profissional:</span>**
 ------------------------------------------------------------
@@ -119,6 +121,8 @@ Tecnologia:
 * Angular.JS/Ionic
 * APIs RESTful
 * AWS S3, CloudFront
+* GitLab CI
+* Docker
 
 ### Front-End Developer na **[Digigroup Comunicação](http://digigroup.com.br/)**
 
