@@ -16,13 +16,29 @@ date: February 23, 2017
 
 * [**Keybase**](https://keybase.io/xuxublz)
 * [**Twitter**](https://twitter.com/xuxu_blz)
+* [**Mastodon**](https://cybre.space/@xuxu_blz)
 * [**Facebook**](https://facebook.com/xuxubeleza)
 * [**Last.fm**](https://www.last.fm/user/xuxu_beleza)
 * [**LinkedIn**](https://www.linkedin.com/in/bruno-gama-71312819/)
 
 (fuck about.me)
 
-## **What I've been doing** - <span class="pink-text">06/2017</span>:
+## **What I've been doing** - <span class="pink-text">06/2018</span>:
+
+Initially I planned this to be a monthly update, but I only updated after a
+whole year 😅. Anyway here is a short report of the last 12 months.
+
+* <span class="blue-text">**My main objective for 2018 is to get into Open Source**</span>.
+* It's a challenge to find open source projects I want to contribute to.
+* After working a whole year @ [Tuneduc](http://tuneduc.com.br) I feel like I have a really good grasp in ReactJS development, as well as agile methodology.
+* I want to make a new version of this site, maybe update the styles too.
+* New version would be a nice opportunity to learn how to use AWS Lambda and generate static HTMLs in an S3 bucket so I could leave heroku.
+* I can say I'm a card-carrying member of the <span class="green-text">**Functional Programming**</span> gang by now.
+* I've been studying <span class="red-text">**ReasonML**</span> really hard and plan to start a ReasonReact project soon.
+* Been going to tons of meetups and dev events, the <span class="purple-text">**ReactBrasil**</span> community is amazing.
+* I learned how to do front-end dev in Linux and honestly I like it better than MacOS
+
+## **What I was doing** - <span class="pink-text">06/2017</span>:
 
 * Landed a new job at [Tuneduc](http://tuneduc.com.br)!!! I'm learning how to work in a real software development team and loving it.
 * Studying hard so I get to understand everything that's possible about React JS
