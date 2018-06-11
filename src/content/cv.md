@@ -121,8 +121,7 @@ Tecnologia:
 * Angular.JS/Ionic
 * APIs RESTful
 * AWS S3, CloudFront
-* GitLab CI
-* Docker
+* GitLab CI, Docker, Docker-compose
 
 ### Front-End Developer na **[Digigroup Comunicação](http://digigroup.com.br/)**
 
