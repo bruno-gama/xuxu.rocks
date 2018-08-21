@@ -3,6 +3,9 @@
 }
 
 @media only print {
+	html, body {
+		font-size: 12px;
+	}
 
 	.print-only {
 		display: initial;

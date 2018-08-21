@@ -90,21 +90,32 @@ da empresa com uma estratégia de _monorepo_, injetar capacidades de PWA nos
 nossos principais produtos, e possivelmente implementar novas features
 utilizando _ReasonML_ como linguagem.
 
-### **Projeto: Foco Brasil**
+### **Projeto: <span class="green-text">Foco Brasil</span>**
 #### React, Redux, Webpack, Jest, Flow, Styled Components, Node, AWS, GitLab CI, Docker
 
+Uma _single-page web application_ desenvolvida com _React_ + _Redux_ e distribuida
+para 6 redes estaduais de ensino público, responsável por disponibilizar dados
+de devolutivas de provas estaduais que são processados em visualizações para
+simples leitura.
+
 * Desenvolvimento de features utilizando _React_ e _Redux_
+* Diferentes reestruturações e reorganizações de estrutura de projeto
 * Colaboração com times de produto e UX na concepção de novas features e/ou refatoração da funcionalidade
 * Modernização da configuração do Webpack e utilização de _Chunks_ para diminuir o peso da _bundle_ inicial
 * Inclusão de uma estrutura de _TDD_/_BDD_ em um projeto que não possuía uma suite de testes
   * Estrutura inicialmente criada com _Mocha_ e depois migrada para _Jest_
 * Inclusão de anotações de tipos com _Flow_ e refatoração de código legado para nova tecnologia
 * Inclusão de _CSS-in-JS_ com _Styled Components_ e refatoração do CSS legado (estilo _tachyons_) para nova tecnologia
+  * desenvolvimento inicial de uma biblioteca de componentes primitivos para reutilização em diferentes produtos
 * Desenvolvimento de scripts (_Node.js_) para deploys no _Amazon S3_/_CloudFront_)
 * Criação de uma estrutura de _DevOps_ para o projeto com _docker-compose_ e _GitLab CI_
 
-### Projeto: Quero Minha Nota!
+### **Projeto: <span class="green-text">Quero Minha Nota!</span>**
 #### Ionic, Angular, Typescript, RXJS, NGRX, Android, IOS,
+
+Um aplicativo mobile híbrido desenvolvido com _Ionic_/_Cordova_ que permite que o
+usuário insira seu gabarito de respostas da prova do ENEM 2017 para receber uma
+estimativa da sua nota final.
 
 * Desenvolvimento de features e estrutura da aplicação com _Ionic_/_Angular_/_Typescript_
 * Utilização de plugins do _Cordova_ para implementação de funcionalidade nativa
@@ -117,8 +128,14 @@ utilizando _ReasonML_ como linguagem.
   * Implementação migrada de _IndexedDB_ para _LocalStorage_ para maior simplicidade
 * _Build_ das aplicações para _Android_ e _iOS_ em conjunto com as publicações em suas respectivas lojas
 
-### Projeto: Espiadinha/Quiz
+### **Projeto: <span class="green-text">Espiadinha/Quiz</span>**
 #### React, Redux, Mocha, AWS, GitLab CI, Docker
+
+Uma _single-page web application_ criada com o objetivo de divulgar os diferentes
+tipos de dados que são oferecidos pelos produtos da empresa, onde o usuário (professor,
+diretor, especialista de marketing) pode responder um quiz com informações sobre
+a escola para a qual trabalha, e verificar a precisão das suas informações com
+o banco de dados da Tuneduc.
 
 * Desenvolvimento de toda a aplicação com _React_/_Redux_
 * Primeira aplicação na empresa com uma implementação de design responsivo
@@ -136,8 +153,7 @@ CSS modernos, onde eu aprendi desenvolvimento básico de front-end para websites
 e onde eu tive a oportunidade de aprender os princípios iniciais do
 desenvolvimento de aplicações web dinâmicas com JavaScript moderno.
 
-### Projeto: Câmara Municipal de São Paulo
-
+### **Projeto: <span class="green-text">Câmara Municipal de São Paulo</span>**
 #### WordPress, PHP, jQuery, React
 
 * Desenvolvimento do Portal da Câmara inteiramente sobre o _WordPress_
@@ -146,7 +162,7 @@ desenvolvimento de aplicações web dinâmicas com JavaScript moderno.
   * Campanhas como Plano Diretor, TV Câmara, Operação Tamanduateí, Orçamento Participativo
 * Desenvolvimento de _widgets_ com estado mais complexo ou gerenciamento de formulários utilizando _React_
 
-### Projeto: Variados websites institucionais dinâmicos
+### **Projeto: Variados <span class="green-text">websites institucionais</span> dinâmicos**
 
 * Desenvolvimento de websites e web applications utilizando HTML5+CSS3 acopanhado de tanto JavaScript puro quanto com a ajuda de libraries e frameworks de front-end.
 * Desenvolvimento de websites e web applications com PHP+WordPress, desenvolvendo temas e plugins.
