@@ -44,8 +44,8 @@ ou frameworks específicos.
 Pela minha experiência, tenho preferência por stacks que utilizem ReactJS,
 mas tenho um interesse em aprender novas tecnologias, particularmente Elm e ReasonML.
 
-**Competências e <span class="blue-text">especializações</span>**
-----------------------------------------------------------------
+### **Competências e <span class="blue-text">especializações</span>**
+
 * HTML5 + CSS3
 * JavaScript moderno (ES6, ES7)
 * React JS (Redux, Styled-components)
@@ -57,8 +57,8 @@ mas tenho um interesse em aprender novas tecnologias, particularmente Elm e Reas
 * PHP + MySQL/MariaDB/PostgreSQL & MVC frameworks
 * Wordpress - Desenvolvimento de Temas e Plugins
 
-**Interesses para <span class="blue-text">aprendizado</span>**
-----------------------------------------------------------------
+### **Interesses para <span class="blue-text">aprendizado</span>**
+
 * Programação Funcional
 * ReasonML
 * Elm
@@ -68,81 +68,94 @@ mas tenho um interesse em aprender novas tecnologias, particularmente Elm e Reas
 * Alguma linguagem funcional para back-end (Elixir, Ocaml, Clojure)
 * Tecnologias para data-viz dinâmico (D3.js, RxJS, Canvas, WebGL)
 
-**Experiência <span class="blue-text">profissional:</span>**
-------------------------------------------------------------
-
+## **Experiência <span class="blue-text">profissional:</span>**
 ### Front-End Developer na **[Tuneduc](http://tuneduc.com.br/)**
-
 #### abril de 2017  -  até o momento
 
 A Tuneduc é uma Startup de Tecnologia Educacional cujo objetivo é processar
 grandes quantidades de dados públicos e disponibilizá-los em um formato que pode
-ser usado mais apropriadamente no sistema de ensino brasileiro, possibilitando
-um planejamento pedagógico verdadeiramente baseado em evidências, seja isso na
-rotina diária do professor em sala de aula, ou nas definições de objetivos de
-abrangência estadual que são feitas por órgãos do governo.
+ser usado mais apropriadamente no sistema de ensino brasileiro, seja para um uso
+na sala de aula ou no planejamento de objetivos educacionais para toda uma rede
+estadual.
 
-Eu colaboro com uma equipe de desenvolvimento ágil pequena e bem-organizada que
+Eu colaboro com uma equipe de desenvolvimento ágil pequena e bem organizada que
 trabalha com Scrum. Eu participo de reuniões diárias assim como de reuniões de
-planejamento e review. Uma das minhas outras responsabilidades é interagir com
-as equipes de design de produto e de marking para contribuir para o planejamento
-de produtos e features futuros que poderão entrar em ciclo de desenvolvimento.
+planejamento e _review_. Os principais aspectos do meu trabalho na equipe envolvem
+manter a arquitetura de front-end de todos os produtos da empresa. Eu mantenho
+comunicação constante com os desenvolvedores back-end e costumo participar nos
+processos de design dos serviços e APIs que desenvolvemos.
 
-Os principais aspectos do meu trabalho na equipe envolvem manter a arquitetura
-de front-end de todos os produtos da empresa, o que significa desenvolver novas
-features, refatorar código legado, migrar tecnologias, e algumas vezes projetar
-a arquitetura para o desenvolvimento de um novo projeto. Eu mantenho comunicação
-constante com os desenvolvedores back-end e costumo participar nos processos de
-design dos serviços e APIs que desenvolvemos.
+Meus objetivos para o futuro próximo incluem unificar a tecnologia dos produtos
+da empresa com uma estratégia de _monorepo_, injetar capacidades de PWA nos
+nossos principais produtos, e possivelmente implementar novas features
+utilizando _ReasonML_ como linguagem.
 
-Nossa _stack_ tecnológica é focada em _single-page-applications_ desenvolvidas com
-React e Redux, mas também mantemos um aplicativo mobile híbrido que foi
-construido com Ionic/Angular e Typescript. Como somos um time pequeno, o devOps
-do front-end é sempre uma das minhas responsabilidades, e por isso eu
-frequentemente preciso trabalhar com a configuração de ferramentas e o
-desenvolvimento de scripts para o nosso processo de build e distribuição, por
-isso o Docker, o GitLab CI e a AWS são alguns dos meus melhores amigos.
+### **Projeto: Foco Brasil**
+#### React, Redux, Webpack, Jest, Flow, Styled Components, Node, AWS, GitLab CI, Docker
 
-No momento, meus objetivos para um futuro próximo são de progressivamente
-injetar capacidades de PWA em um dos nossos principais projetos juntamente com
-_features_ como funcionalidade offline com Service Workers. Eu também estou
-trabalhando em adicionar _type annotations_ com FlowType em toda a nossa base de
-código JavaScript. Eu ainda desejo desenvolver pelo menos uma aplicação inteira
-em produção com ReasonReact ou Elm.
+* Desenvolvimento de features utilizando _React_ e _Redux_
+* Colaboração com times de produto e UX na concepção de novas features e/ou refatoração da funcionalidade
+* Modernização da configuração do Webpack e utilização de _Chunks_ para diminuir o peso da _bundle_ inicial
+* Inclusão de uma estrutura de _TDD_/_BDD_ em um projeto que não possuía uma suite de testes
+  * Estrutura inicialmente criada com _Mocha_ e depois migrada para _Jest_
+* Inclusão de anotações de tipos com _Flow_ e refatoração de código legado para nova tecnologia
+* Inclusão de _CSS-in-JS_ com _Styled Components_ e refatoração do CSS legado (estilo _tachyons_) para nova tecnologia
+* Desenvolvimento de scripts (_Node.js_) para deploys no _Amazon S3_/_CloudFront_)
+* Criação de uma estrutura de _DevOps_ para o projeto com _docker-compose_ e _GitLab CI_
 
-Tecnologia: 
-* ECMAScript2015/2016
-* Node.JS
-* FlowType, Typescript
-* Mocha, Jest, Ava
-* React.JS
-* Redux
-* Styled-Components
-* Angular.JS/Ionic
-* APIs RESTful
-* AWS S3, CloudFront
-* GitLab CI, Docker, Docker-compose
+### Projeto: Quero Minha Nota!
+#### Ionic, Angular, Typescript, RXJS, NGRX, Android, IOS,
 
+* Desenvolvimento de features e estrutura da aplicação com _Ionic_/_Angular_/_Typescript_
+* Utilização de plugins do _Cordova_ para implementação de funcionalidade nativa
+  * Firebase para _Push Notifications_ e _Analytics_
+  * _Share Nativo_
+  * _Splash Screen_
+  * _Toast Notifications_
+  * Informações de _network_, _status bar_
+* Persistência de dados com _RXJS_/_NGRX_/_IndexedDB_
+  * Implementação migrada de _IndexedDB_ para _LocalStorage_ para maior simplicidade
+* _Build_ das aplicações para _Android_ e _iOS_ em conjunto com as publicações em suas respectivas lojas
+
+### Projeto: Espiadinha/Quiz
+#### React, Redux, Mocha, AWS, GitLab CI, Docker
+
+* Desenvolvimento de toda a aplicação com _React_/_Redux_
+* Primeira aplicação na empresa com uma implementação de design responsivo
+* Otimização do design da aplicação para funcionamento em _totems_ de uma conferência
+* Interações com times de marketing e produto para definições do projeto
+* Criação da estrutura de _TDD_/_BDD_ para _JavaScript_ dentro da empresa, utilizando _Mocha_
+* Automatização do _Deploy_ do projeto com bash scripts e _GitLab CI_
+
+## **Experiência <span class="blue-text">profissional:</span>**
 ### Front-End Developer na **[Digigroup Comunicação](http://digigroup.com.br/)**
+#### julho de 2010  -  abril de 2017 (7 anos)
 
-#### abril de 2011  -  abril de 2017 (6 anos)
+Agência onde eu aprendi e desenvolvi a maioria dos meus conhecimentos de HTML e
+CSS modernos, onde eu aprendi desenvolvimento básico de front-end para websites,
+e onde eu tive a oportunidade de aprender os princípios iniciais do
+desenvolvimento de aplicações web dinâmicas com JavaScript moderno.
 
-Digigroup Comunicação é o nome mais recente da ex-Converagência Interativa, aqui continuei o meu desenvolvimento profissional a partir da mesma posição.
-* Desenvolver websites e web applications utilizando HTML5+CSS3 acopanhado de tanto JavaScript puro quanto com a ajuda de libraries e frameworks de front-end (jQuery no passado, ReactJS no presente).
-* Desenvolver websites e até web applications com PHP+WordPress, desenvolvendo temas e plugins.
-* Se divertir de vez em quando com animações de javascript + CSS3.
-* Trabalhar como programador "full-stack" quando necessario, primariamente com PHP e Apache sobre frameworks MVC* como Laravel (prazeroso), CakePHP (menos prazeroso), CodeIgniter (desprazeroso).
+### Projeto: Câmara Municipal de São Paulo
 
+#### WordPress, PHP, jQuery, React
 
-### Front-end developer  na <span class="yellow-text">**Converagência Interativa**</span>
+* Desenvolvimento do Portal da Câmara inteiramente sobre o _WordPress_
+* Utilização da feature de _Multisite_ do _WP_ para possibilitar a disponibilização rápida de novos sites em uma infra-estrutura com acesso limitado.
+* Desenvolvimento de diferentes _Hotsites_ para campanhas da Câmara
+  * Campanhas como Plano Diretor, TV Câmara, Operação Tamanduateí, Orçamento Participativo
+* Desenvolvimento de _widgets_ com estado mais complexo ou gerenciamento de formulários utilizando _React_
 
-#### julho de 2010  -  agosto de 2012  (2 anos 2 meses)
+### Projeto: Variados websites institucionais dinâmicos
 
-Agência onde eu aprendi e desenvolvi a maioria dos meus conhecimentos de HTML e CSS modernos, e aprendi desenvolvimento básico de front-end para websites.
-* Criação de templates para email marketing, corte e manipulação de imagens.
-* Motion design e animações para banners interativos com Adobe Flash (em ambos ActionScript 2 e 3).
-* Desenvolvimento básico de temas para WordPress, contato leve com PHP e MySQL.
-* Utilização básica de jQuery e outras libraries.
+* Desenvolvimento de websites e web applications utilizando HTML5+CSS3 acopanhado de tanto JavaScript puro quanto com a ajuda de libraries e frameworks de front-end.
+* Desenvolvimento de websites e web applications com PHP+WordPress, desenvolvendo temas e plugins.
+* Se divertir de vez em quando com animações utilizando JavaScript + CSS3.
+* Trabalhar como programador _full-stack_ quando necessario, primariamente com _PHP_ e _Apache_ sobre frameworks _MVC\*_ como _Laravel_ , _CakePHP_, _CodeIgniter_.
+* Criação de templates para _email marketing_, corte e manipulação de imagens.
+* _Motion design_ e animações para banners interativos com _Adobe Flash_ (em ambos _ActionScript_ 2 e 3).
+
+## **Experiência <span class="blue-text">profissional:</span>**
 
 ### Estagiario  na **[ZeroUm Digital](http://www.zeroum.com.br/)**
 
@@ -150,9 +163,9 @@ Agência onde eu aprendi e desenvolvi a maioria dos meus conhecimentos de HTML e
 
 Minhas primeiras experiências com desenvolvimento básico de web.
 * Manutenção e atualização de páginas
-* Desenvolvimento de Email Marketing
+* Desenvolvimento de _Email Marketing_
 * Recorte de imagens, preparação de layouts.
-* Photoshop e Illustrator
+* _Photoshop_ e _Illustrator_
 
 **Formação <span class="blue-text">acadêmica</span>**
 -----------------------------------------------------
