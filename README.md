@@ -1,6 +1,10 @@
 Xuxu Rocks (Node ver.)
 ======================
 
+# ***Very old code***
+
+I want to rewrite everything one day but too lazy
+
 ### Business card style website, now done with node and markdown.
 
 Install all dev dependencies with:
@@ -22,8 +26,3 @@ Run the server with:
 or:
 
 	heroku local web
-
-And push changes to heroku with:
-	
-	git remote add origin https://git.heroku.com/xuxu-rocks.git
-	git push heroku master
