@@ -1,4 +1,5 @@
 {
+  "stack": "heroku-20",
   "name": "Xuxu.Rocks!",
   "description": "Business card style website, now done with node and markdown.",
   "repository": "https://bruno_gama@bitbucket.org/bruno_gama/xuxu-rocks-node.git",
